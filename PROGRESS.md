@@ -18,3 +18,9 @@ All timestamps America/New_York (EST). Entry: MLH Solana Hackathon, Nov 6–8, 2
 - Actual devnet wallet signing/confirmation and dial.to rendering are NOT verified. The passing smoke tests prove unsigned build paths, not executed trades.
 - Record and upload a truthful <=2-minute demo during the weekend. Script and submission draft are in `mlh/`.
 - Lee must sign in to MLH Challenges and do the final initial/final submission clicks; nothing submitted here.
+
+## Nov 7, 2026 · 9:15 AM EST
+- Pushed implementation commit `121b3dc` and dedicated smoke/offline test commit `62a3b48` to main. Final offline suite now 14 passing / 0 failing, including actual genesis-guard rejection and unseeded-market regression.
+- Added truthful MLH Challenges submission fields and a 1:50 demo script; copied them to `/workspace/crypto-acquisition/solana-perps/mlh/` for the bounty coordinator. Removed unimplemented Pyth/claim/wallet-adapter claims from the old draft.
+- Verified the landing page links to `/events/solana-hackathon/submissions/new`; opening that exact route displays Sign In. Did not log in or submit. Public prize tracks now show a $1,000 Top 3 microgrant and $100/member DeFi gift-card track; no revenue booked.
+- Repository-local git author identity uses the account's public GitHub noreply address. No credentials were read or printed.
