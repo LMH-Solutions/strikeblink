@@ -1,8 +1,7 @@
 node_modules/
-.env
-.env.*
-*.log
-devnet-wallet.json
-.DS_Store
-.wrangler/
 dist/
+.env*
+!.env.example
+*.log
+*wallet*.json
+*keypair*.json
