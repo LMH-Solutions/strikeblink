@@ -25,13 +25,13 @@ Verified November 7, 2026, approximately 9:14 AM EST (America/New_York):
 
 **What we learned:** Solana Actions separate metadata, transaction construction and user consent. A correct unsigned transaction must include setup instructions that signing convenience helpers normally hide. pm-AMM reserves need time-accrual adjustment before quoting.
 
-**What's next:** Stable HTTPS hosting, a recorded wallet-reviewed devnet trade, Blink rendering checks, richer card images and a separately reviewed resolved-position/claim Action. No mainnet or real-money rollout is claimed.
+**What's next:** Reliable RPC for the public Worker, deployment parity with the tested TypeScript Node/Hono path, a recorded wallet-reviewed devnet trade, Blink rendering checks, richer card images and a separately reviewed resolved-position/claim Action. No mainnet or real-money rollout is claimed.
 
 **Built with:** TypeScript, Node.js, Hono, esbuild, Solana, Solana Actions, Blinks, @pm-amm/sdk, @solana/web3.js, @solana/spl-token, @anchor-lang/core, Grok Bot (AI assistance).
 
 **Code:** https://github.com/LMH-Solutions/strikeblink
 
-**Working demo URL:** NOT YET AVAILABLE — deploy public HTTPS before claiming a live app.
+**Working demo URL:** https://strikeblink.autumn-salad-f46e.workers.dev — concurrent Worker deployment, with separate legacy code. Public SOL metadata and unsigned YES build verified; NO returned an RPC-provider 403 as HTTP 500. Resolve reliability and reconcile Worker safeguards before claiming the whole public workflow works. The tested TypeScript Node/Hono implementation is not yet the deployed Worker entry.
 
 **Video URL/upload:** NOT YET AVAILABLE — record and attach a <=2-minute video using DEMO-SCRIPT.md. Do not paste the repository as a video/demo substitute.
 
@@ -46,4 +46,4 @@ Verified November 7, 2026, approximately 9:14 AM EST (America/New_York):
 3. Click the form's submit control for the **initial entry before Nov 8, 10:00 AM EST**. The exact authenticated button text is unverified; the form is behind sign-in.
 4. Reopen/edit that same entry with final links/video and click its final update/submit control **before Nov 8, 11:45 AM EST**. Keep the confirmation/receipt. Never create duplicate entries.
 
-Do not claim the entry is ready or submitted until the hosting/video gaps are closed and Lee has the platform confirmation. No account login, submission, upload or external message was performed by this build task.
+Do not claim the entry is ready or submitted until the public RPC/deployment-parity/video gaps are closed and Lee has the platform confirmation. No account login, submission, upload or external message was performed by this build task.

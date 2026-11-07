@@ -1,0 +1,71 @@
+{
+  "updatedAt": 1794060873480,
+  "markets": [
+    {
+      "id": 92735959510804,
+      "pda": "DBowdxMFp8pkugVMniSjpVWwnFDYNxAbUXiky8ASBTvy",
+      "name": "Will HYPE be above $79.6 at 2026-11-07 15:23 UTC?",
+      "endTs": 1794064975
+    },
+    {
+      "id": 207905165017466,
+      "pda": "RKZg37LX18BtMD7bNbSeMS8NA7vT6JNvcXADK9RPMuR",
+      "name": "SOL>89.8@1794074400",
+      "endTs": 1794074400
+    },
+    {
+      "id": 195442840026747,
+      "pda": "5n51d8wzWnLz4tADcGjpYJZ8aA3sAVuQsPp4j4NxJhpw",
+      "name": "BTC>76300@1794074400",
+      "endTs": 1794074400
+    },
+    {
+      "id": 20917829933932,
+      "pda": "G4NDiabQC5jYjg7kypt853AbS28sXfqrtj3yZRCyyZfr",
+      "name": "BTC>75800@1794074400",
+      "endTs": 1794074400
+    },
+    {
+      "id": 187764621790136,
+      "pda": "H65kbxbEP54pnhEFzu6xkP3oigNRDxcMwWCLCUuyTwN8",
+      "name": "SOL>90.6@1794074400",
+      "endTs": 1794074400
+    },
+    {
+      "id": "4624287282820191409",
+      "pda": "2MT44XySsdeJgjVM3hYG4RUbWiJW8kwWQwAp3rYeNvEG",
+      "name": "Graduates by 2026-11-08T02:57Z?",
+      "endTs": 1794106678
+    },
+    {
+      "id": "7959657615574306784",
+      "pda": "6PvE8M1Yak1f42rYvmSTp5vuN5HVfGkx3DUQKPjEi69q",
+      "name": "Graduates by 2026-11-09T03:38Z?",
+      "endTs": 1794195530
+    },
+    {
+      "id": "13316847677397210717",
+      "pda": "ApbA3yk5rU3qcFddmKoeRP6y9iFLEZmJwuer6njJVKYA",
+      "name": "Graduates by 2026-11-09T23:11Z?",
+      "endTs": 1794265881
+    },
+    {
+      "id": 88053460343735,
+      "pda": "9EZF5XwLeMiwTQ499ZiMTTiUFudKerMXDidXoftp3Uj3",
+      "name": "Will Base DeFi TVL exceed $7 billion by October 31, 2026?",
+      "endTs": 1794403441
+    },
+    {
+      "id": 147260924600940,
+      "pda": "3eRbTivVpYYMPFDWonQ5MNTR66pAw4Jo29r9ahveT9mn",
+      "name": "USD/KZT official rate above 600 by Nov 25 2026?",
+      "endTs": 1795613647
+    },
+    {
+      "id": 229489933177533,
+      "pda": "3oTy8My9aMVLfTKgm4N9TFPbQ9G3orrGsY1ZJAqgDEBg",
+      "name": "Astana schools remote due to frost by Nov 29 2026?",
+      "endTs": 1795872862
+    }
+  ]
+}

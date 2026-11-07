@@ -22,7 +22,19 @@ PORT=8787 PUBLIC_BASE_URL=https://your-public-host.example npm start
 # RPC_URL may point to another DEVNET RPC; the full genesis hash is checked.
 ```
 
-Use `PUBLIC_BASE_URL` behind a reverse proxy so metadata contains the correct public HTTPS origin. Do not commit credential-bearing RPC URLs. A stable public HTTPS deployment is still outstanding; localhost is not a public demo link. Hosts should run `npm ci && npm run build`, then `npm start` with their assigned `PORT`. No deployment or paid resource was provisioned.
+Use `PUBLIC_BASE_URL` behind a reverse proxy so metadata contains the correct public HTTPS origin. Do not commit credential-bearing RPC URLs. Hosts should run `npm ci && npm run build`, then `npm start` with their assigned `PORT`.
+
+## Concurrent public Worker deployment
+
+A separate worker deployment was added concurrently in commit `aeb5a51`, and is preserved here:
+
+- https://strikeblink.autumn-salad-f46e.workers.dev
+- Worker entry: `src/worker.mjs`, configured by `wrangler.toml`.
+- The TypeScript Node/Hono path (`src/app.ts`) documented and tested below is **not yet the deployed Worker entry**. The worker has a separate implementation, a seeded list and RPC failover; it does not yet have all the Node path's new validation/cluster/filter safeguards. Do not assume the 14-test suite covers the Worker.
+- Live read-only verification Nov 7, approximately 9:16 AM EST: public metadata and a SOL-specific YES unsigned transaction succeeded. The immediately following NO build failed with an RPC 403/provider-blocked error, returned as HTTP 500. Public RPC reliability is a blocker; no signed trade or Blink rendering was verified.
+- The Worker defaults to all seeded market types (not SOL-only). Select a SOL market from `/api/markets` explicitly for the demo. Its markets expire; refresh rather than hardcode a stale market.
+
+No Worker deployment was performed by this local implementation task; the concurrent deployment commit was merged without rewriting history.
 
 ## Endpoints
 
