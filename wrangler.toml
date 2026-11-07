@@ -1,0 +1,8 @@
+name = "strikeblink"
+main = "src/worker.mjs"
+compatibility_date = "2026-11-01"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[vars]
+RPC_URL = "https://devnet.rpcpool.com"

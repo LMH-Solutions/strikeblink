@@ -6,6 +6,12 @@ One-click **Solana Actions / Blinks** for short-dated strike prediction markets 
 
 Paste a Blink link anywhere (X, Discord, chat) → wallet card unfurls with live YES/NO odds → one tap builds an unsigned swap on pm-AMM → you sign.
 
+## Live
+
+- **Public URL:** https://strikeblink.autumn-salad-f46e.workers.dev
+- **dial.to inspector:** https://dial.to/?action=solana-action%3Ahttps%3A%2F%2Fstrikeblink.autumn-salad-f46e.workers.dev%2Fapi%2Factions%2Ftrade
+- Local Express (`npm start`) remains the primary Node/CJS path; Cloudflare Worker is the durable public deploy (same Actions surface).
+
 ## Quick start
 
 ```bash
